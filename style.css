@@ -1,0 +1,48 @@
+/** 
+ * A very basic CSS reset:
+ * More about CSS resets: https://meyerweb.com/eric/tools/css/reset/
+ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/** 
+ * Card sizing and positioning.
+ * Don't mess with this!
+ */
+.card {
+  width: 300px;
+  height: 540px;
+  margin: 40px auto 0 auto;
+}
+
+/** 
+ * Just some styling to make the card visible.
+ * Feel free to change this!
+ */
+
+.card {
+  background-color: mediumaquamarine;
+  color: black;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 3px solid gainsboro;  
+}
+
+.banner {
+background-color: pink;
+width: 50px;
+border-radius: 4px;
+text-align: center;
+color: gray;
+}
+
+/** flote, flexbox,absolut relative*/
